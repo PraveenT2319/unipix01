@@ -26,6 +26,7 @@
     <link href="assets/css/bootsnav.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- ========== End Stylesheet ========== -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -36,26 +37,33 @@
     <![endif]-->
 
     <!-- ========== Google Fonts ========== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600,700,800" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js" integrity="sha512-K9tDZvc8nQXR1DMuT97sct9f40dilGp97vx7EXjswJA+/mKqJZ8vcZLifZDP+9t08osMLuiIjd4jZ0SM011Q+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-   
     <style>
-        .slider-thumb {
-          width: 300px;
-          height: 200px;
-          background-size: cover;
-          box-shadow: 0 4px 8px #000; /* Black shadow */
-        }
+    .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
       </style>
 </head>
 
 <body>
 
-    <!-- Preloader Start -->
-    <div class="se-pre-con"></div>
-    <!-- Preloader Ends -->
 
     <!-- Start Header Top 
     ============================================= -->
@@ -66,13 +74,13 @@
                     <div class="info box">
                         <ul>
                             <li>
-                                <i class="fas fa-map-marker-alt"></i> Tamil Nadu
+                                <i class="fas fa-map-marker-alt"></i> Tamil Nadu 
                             </li>
                             <li>
-                                <i class="fas fa-envelope-open"></i> unipix0799@gmail.com
+                                <i class="fas fa-envelope-open"></i> <a href="mailto:unipix0799@gmail.com">unipix0799@gmail.com</a>
                             </li>
                             <li>
-                                <i class="fas fa-phone"></i>+91 8608136586
+                                <i class="fas fa-phone"></i> <a href="tel:+91 8608136586">+91 8608136586</a>
                             </li>
                         </ul>
                     </div>
@@ -112,11 +120,11 @@
             <div class="container">
 
                 <!-- Start Atribute Navigation -->
-                <div class="attr-nav">
+                <div class="attr-nav" style="padding: 24px 20px;">
                     <ul>
-                        <li class="fas fa-phone"><a href="#"></i></a></li>
+                        <a href="tel:+91 8608136586">  <i class="fas fa-phone"></i> </a>
                     </ul>
-                </div>        
+                </div>      
                 <!-- End Atribute Navigation -->
 
                 <!-- Start Header Navigation -->
@@ -198,15 +206,15 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner carousel-zoom">
                 <div class="item active">
-                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/uni/index1.jpg);"></div>
+                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/uni/index1.png);"></div>
                     <div class="box-table">
                         <div class="box-cell">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="content">
-                                            <h1 data-animation="animated fadeInUp">  Elevate with <span> Unipix</span></h1>
-                                            <h2 data-animation="animated fadeInDown">Innovate Your Brand Story with <br>Unipix Graphic Mastery.</h2>
+                                            <h1 data-animation="animated fadeInUp" style="color: aliceblue;">  Elevate with <span> Unipix</span></h1>
+                                            <h2 data-animation="animated fadeInDown" style="color: aliceblue;">Innovate Your Brand Story with <br>Unipix Graphic Mastery.</h2>
                                           
                                             <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">View Details</a>
                                         </div>
@@ -217,15 +225,15 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/uni/index3.jpg);"></div>
+                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/uni/index3.png);"></div>
                     <div class="box-table">
                         <div class="box-cell">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="content">
-                                            <h1 data-animation="animated fadeInUp">Precision in <span> Pixels.</span></h1>
-                                            <h2 data-animation="animated fadeInDown">Graphic Brilliance Unleashed: Unipix Where Ideas Meet Visual Perfection.</h2>
+                                            <h1 data-animation="animated fadeInUp" style="color: aliceblue;">Precision in <span> Pixels.</span></h1>
+                                            <h2 data-animation="animated fadeInDown" style="color: aliceblue;">Graphic Brilliance Unleashed: Unipix Where Ideas Meet Visual Perfection.</h2>
                                           
                                             <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">View Details</a>
                                         </div>
@@ -236,15 +244,15 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/uni/index.jpg);"></div>
+                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/uni/index.png);"></div>
                     <div class="box-table">
                         <div class="box-cell">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="content">
-                                            <h1 data-animation="animated fadeInUp"><span> Visuals that</span> Ignite</h1>
-                                            <h2 data-animation="animated fadeInDown">Unipix: Where Graphic Innovation Meets Precision for Stunning Visuals.</h2>
+                                            <h1 data-animation="animated fadeInUp" style="color: aliceblue;"><span > Visuals that</span> Ignite</h1>
+                                            <h2 data-animation="animated fadeInDown" style="color: aliceblue;">Unipix: Where Graphic Innovation Meets Precision for Stunning Visuals.</h2>
                                           
                                             <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">View Details</a>
                                         </div>
@@ -516,7 +524,9 @@
     <div class="chose-us-area item-half">
         <div class="container-full">
             <div class="row">
-                <div class="col-md-6 thumb bg-cover" style="background-image: url(assets/img/uni/why.png); ;"></div>
+                <div class="col-md-6 thumb bg-cover">
+                <img src="assets/img/uni/why.png"  style=" width: 100% ; height: auto;">
+            </div>
                 <div class="col-md-6 info">
                     <div class="heading">
                         <h2>Why Chose us</h2>
@@ -583,7 +593,7 @@
                     <div class="col-md-3        equal-height">
                         <div class="item">
                             <div class="thumb">
-                                <img src="assets/img/800x600.png" alt="Thumb">
+                                <img src="assets/img/uni/kris.png" alt="Thumb">
                                 <div class="overlay">
                                     <a href="#"><i class="fas fa-plus"></i></a>
                                 </div>
@@ -618,7 +628,7 @@
                     <div class="col-md-3 equal-height">
                         <div class="item">
                             <div class="thumb">
-                                <img src="assets/img/800x600.png" alt="Thumb">
+                                <img src="assets/img/uni/ven.png" alt="Thumb">
                                 <div class="overlay">
                                     <a href="#"><i class="fas fa-plus"></i></a>
                                 </div>
@@ -640,7 +650,7 @@
                                 </div>
                             </div>
                             <div class="info">
-                                <h4>Venkatesh prasanna .R</h4>
+                                <h4>Venkatesh  .R</h4>
                                 <h5>Graphic Designer</h5>
                                 <div class="appoinment-btn">
                                 
@@ -653,7 +663,7 @@
                     <div class="col-md-3 equal-height">
                         <div class="item">
                             <div class="thumb">
-                                <img src="assets/img/800x600.png" alt="Thumb">
+                                <img src="assets/img/uni/kris2.png" alt="Thumb">
                                 <div class="overlay">
                                     <a href="#"><i class="fas fa-plus"></i></a>
                                 </div>
@@ -714,9 +724,7 @@
                                     I have been using Unipix for over a year. He is very good at taking instruction to what you want in your real estate images. Great communication. He delivers what you want and images look great. . He does great work and is affordable. I recommend his editing skills. </p>
                             </div>
                             <div class="provider">
-                                <div class="thumb">
-                                    <img src="assets/img/800x800.png" alt="Thumb">
-                                </div>
+                              
                                 <div class="info">
                                     <h4>Kristi</h4>
                                 </div>
@@ -730,9 +738,7 @@
                                     I’ve used unipix for about a year now and always loved the work! Fast turnaround times and clients are very happy with how the work comes out. I’ve made him apart of my team. Krishna is reliable, polite, hard working and a great person to work with ! Thank you Krishna! </p>
                             </div>
                             <div class="provider">
-                                <div class="thumb">
-                                    <img src="assets/img/800x800.png" alt="Thumb">
-                                </div>
+                             
                                 <div class="info">
                                     <h4>Matt Valdez</h4>
                                 </div>
@@ -746,9 +752,7 @@
                                     Very responsive! Quality and efficient editing, always have the final photos the next day. Would recommend to any property photographer! </p>
                             </div><br>
                             <div class="provider">
-                                <div class="thumb">
-                                    <img src="assets/img/800x800.png" alt="Thumb">
-                                </div>
+                              
                                 <div class="info">
                                     <h4>Gary Gates</h4>
                                 </div>
@@ -838,7 +842,7 @@
                     <!-- Single Item -->
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div id="image-comparison-slider">
-                            <img src="assets/img/uni/work/decutler/0O8A4005.jpg" alt="before">
+                            <img src="assets/img/uni/work/mi3.png" alt="before">
                             <div class="img-wrapper">
                               <img src="assets/img/uni/work/decutler/0O8A4005.jpg" alt="after">
                             </div>
@@ -858,9 +862,9 @@
                     <!-- Single Item -->
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div id="image-comparison-slider">
-                            <img src="assets/img/uni/work/twilight/DSC06817 stack image.jpg" alt="before">
+                            <img src="assets/img/uni/work/mi1.png" alt="before">
                             <div class="img-wrapper">
-                              <img src="assets/img/uni/work/twilight/1/DSC06817-twlight.jpg" alt="after">
+                              <img src="assets/img/uni/work/mi2.png" alt="after">
                             </div>
                             <span class="label label-before">Before</span>
                             <span class="label label-after">After</span>
@@ -895,6 +899,10 @@
                           </div><h2><b>Twilight</b></h2>
                     </div>
                     <!-- End Single Item -->
+
+                    
+
+                    
                 </div>
             </div>
         </div>
@@ -957,8 +965,9 @@
             </div>
         </div>
     </div>
-    <!-- End Features -->
-
+    <!-- End Features --><a href="https://api.whatsapp.com/send?phone=+918608136586&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
 
     <!-- Start Footer 
     ============================================= -->
@@ -1031,7 +1040,7 @@
                                 <ul>
                                     <li>
                                         <i class="fas fa-phone"></i> 
-                                        <p>Phone <span>+91 8608136586</span></p>
+                                        <p>Phone <span><a href="tel:+91 8608136586">+91 8608136586</a></span></p>
                                     </li>
                                     <li>
                                         <i class="fas fa-envelope"></i> 

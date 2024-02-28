@@ -355,9 +355,9 @@
     }); // end document ready function
 })(jQuery); // End jQuery
 
-  VanillaTilt.init(document.querySelector("#image-comparison-slider"), { // Tilt Effect - vanilla-tilt.js (https://micku7zu.github.io/vanilla-tilt.js/) is required for this
+  VanillaTilt.init(document.querySelector("#image-comparison-slider"), { 
     max: 5, // max tilt rotation (degrees (deg))
-    speed: 800, // speed (transition-duration) of the enter/exit transition (milliseconds (ms))
+    speed: 800, 
     scale: 1.02 // transform scale - 2 = 200%, 1.5 = 150%, etc..
   });
   
@@ -406,3 +406,11 @@
   }   
 
 
+
+
+
+
+
+
+
+  
